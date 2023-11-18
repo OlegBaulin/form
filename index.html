@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="./js/app.js"></script>
+    <title>Sign in</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="form">
+        <div class="form__content">
+          <h1 class="form__title">Sign in</h1>
+          <form action="#" class="form__form-box form-box">
+            <div class="form-box__input-box input-box">
+              <label class="input-box__info" for="email">Email</label>
+              <label class="input-box__icon" for="email"
+                ><img src="./image/svg/email.svg" alt="email"
+              /></label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email address"
+              />
+            </div>
+            <div class="form-box__input-box input-box">
+              <label class="input-box__info" for="password">Password</label>
+              <label class="input-box__icon" for="password"
+                ><img src="./image/svg/password.svg" alt="password"
+              /></label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Enter your password"
+              />
+            </div>
+            <div class="form-box__btn-box btn-box">
+              <button type="submit">Login</button>
+            </div>
+            <div class="form-box__social">
+              <span class="form-box__social-info">or continue with</span>
+              <div class="form-box__social-items">
+                <a href="#"
+                  ><img src="./image/svg/facebook.svg" alt="facebook"
+                /></a>
+                <a href="#"
+                  ><img src="./image/svg/apple.svg" alt="facebook"
+                /></a>
+                <a href="#"
+                  ><img src="./image/svg/google.svg" alt="facebook"
+                /></a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <div class="popup">
+        <p class="popup__message">Успешная аутентификация!</p>
+      </div>      
+    </div>
+  </body>
+</html>
